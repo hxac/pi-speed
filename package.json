@@ -1,0 +1,35 @@
+{
+	"name": "pi-speed",
+	"version": "0.1.0",
+	"description": "pi footer extension that shows per-turn output speed and input latency",
+	"type": "module",
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"speed",
+		"latency"
+	],
+	"pi": {
+		"extensions": [
+			"./extensions/speed.ts"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-ai": "*",
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*"
+	},
+	"scripts": {
+		"test": "node --test test/*.test.ts"
+	},
+	"license": "MIT",
+	"author": "hxac",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hxac/pi-speed.git"
+	},
+	"homepage": "https://github.com/hxac/pi-speed#readme",
+	"bugs": {
+		"url": "https://github.com/hxac/pi-speed/issues"
+	}
+}
