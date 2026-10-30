@@ -1,6 +1,6 @@
 {
 	"name": "pi-speed",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "pi footer extension that shows per-turn output speed and input latency",
 	"type": "module",
 	"keywords": [
@@ -11,7 +11,7 @@
 	],
 	"pi": {
 		"extensions": [
-			"./extensions/speed.ts"
+			"./extensions/index.ts"
 		]
 	},
 	"peerDependencies": {
