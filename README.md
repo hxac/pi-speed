@@ -4,9 +4,9 @@ A [pi](https://pi.dev) extension that adds per-turn output speed and time to fir
 
 在 [pi](https://pi.dev) 的底部统计行中显示**每轮输出速度**和**首 token 延时（TTFT）**。
 
-```text
-↑47k ↓6.4k R179k CH84.5% $0.023 42.3t/s 1.24s 5.8%/1.0M (auto)
-```
+![pi footer at runtime: ↑47k ↓6.4k R179k CH84.5% $0.023 42.3t/s 1.24s 5.8%/1.0M (auto)](assets/footer.svg)
+
+图中新增的两个字段：最近一轮输出速度 **42.3t/s**，首 token 延时 **1.24s**（深色主题）。
 
 ## 安装
 

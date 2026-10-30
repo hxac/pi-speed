@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="116" viewBox="0 0 1000 116" role="img" aria-labelledby="title desc">
+	<title id="title">pi-speed footer at runtime</title>
+	<desc id="desc">The pi footer in a dark terminal: the path line ~/Desktop/pi-speed (main), then dim stats "↑47k ↓6.4k R179k CH84.5% $0.023 42.3t/s 1.24s 5.8%/1.0M (auto)" on the left and "deepseek-flash • max" on the right.</desc>
+	<defs>
+		<linearGradient id="surface" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#252a33"/>
+			<stop offset="1" stop-color="#1e2229"/>
+		</linearGradient>
+		<clipPath id="rounded">
+			<rect width="1000" height="116" rx="14"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#rounded)">
+		<rect width="1000" height="116" fill="url(#surface)"/>
+		<rect y="0" width="1000" height="1" fill="#ffffff" opacity="0.045"/>
+		<text x="28" y="39" fill="#7e888e" opacity="0.82" font-family="'SFMono-Regular', 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="16" text-rendering="geometricPrecision">~/Desktop/pi-speed (main)</text>
+		<text x="28" y="78" fill="#8b959b" font-family="'SFMono-Regular', 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="16" text-rendering="geometricPrecision">↑47k ↓6.4k R179k CH84.5% $0.023 42.3t/s 1.24s 5.8%/1.0M (auto)</text>
+		<text x="972" y="78" fill="#7e888e" opacity="0.78" text-anchor="end" font-family="'SFMono-Regular', 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="16" text-rendering="geometricPrecision">deepseek-flash • max</text>
+	</g>
+	<rect x="0.5" y="0.5" width="999" height="115" rx="13.5" fill="none" stroke="#343a44"/>
+</svg>
